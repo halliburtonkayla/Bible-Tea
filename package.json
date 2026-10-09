@@ -1,0 +1,11 @@
+{
+  "name": "bible-tea",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node --test tests/dom.test.cjs",
+    "test:browser": "node --test tests/site.test.cjs",
+    "check": "node --check main.js && node --check story-reader.js && node --check drama-data.js && node --check book-intros.js"
+  },
+  "devDependencies": {"jsdom": "29.0.0", "playwright": "1.58.2"}
+}
